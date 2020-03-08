@@ -18,6 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 public class fetch extends AppCompatActivity {
     EditText editText;
     Button usn,name, fetch,MEM,MEA,CNM,CNA,DBMSM,DBMSA,ATCM,ATCA,AJAVAM,AJAVAA,AIM,AIA;
+    Button myButton;
     DatabaseReference rootRef, demoRef;
 
     @Override
